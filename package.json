@@ -1,0 +1,17 @@
+{
+  "name": "platzivideo",
+  "version": "1.0.0",
+  "description": "Curso profesional de Javascript en Platzi",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "postcss css/tailwind.css -o public/css/styles.css"
+  },
+  "author": "Bernardino Villagra <bernardinovillagra@hotmail.com> (https://twitter.com/villagrabaez)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.1"
+  }
+}
